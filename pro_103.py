@@ -3,10 +3,13 @@ import shutil
 
 import time
 
+
+
 path_a="/Users/aro/Downloads/"
 c_pat="/Users/aro/Desktop/class project/PRO-C100/110/"
 a_path="Users/aro/"
-
+if os.path.exists(c_pat) !=True:
+    os.mkdir("/Users/aro/Desktop/class project/PRO-C100/110")
 list_files=os.listdir(path_a)
 
 file_exe=[]
